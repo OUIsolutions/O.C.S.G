@@ -22,5 +22,12 @@ void dtw_1_0_0_my_func(){
 ```
 
 ### Pointers
-Always initialize your pointers to 
+Always initialize your pointers to function return, or default or Null, and always declare them as close as possible to where they are used.
 ```c
+void dtw_1_0_0_my_func(){
+
+    int *my_pointer = NULL;
+    // do something with my_pointer
+}
+```
+

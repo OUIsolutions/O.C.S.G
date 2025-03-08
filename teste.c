@@ -31,7 +31,7 @@ void dtw_1_0_0_print_x_and_y(dtw_1_0_0_Dependencies *dependencies,int x,int y){
 
 int main(){
   
-    dtw_1_0_0_Dependencies dependencies;
+    dtw_1_0_0_Dependencies dependencies = {0};
     const char *error = dtw_1_0_0_init_dependencie_funtions(&dependencies);
     if(error != NULL){
         printf("%s\n",error);

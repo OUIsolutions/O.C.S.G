@@ -14,11 +14,11 @@ gcc  samples/dependencie_injections_default/main.c samples/dependencie_injection
 ### Dependencie Injection with Mocks
 if you want you can mock any import function, to test your code, or to run in a different platform. (Note That you will need to implement the mock functions)
 
-These example: [dependencie_injections_mock_fail](/samples/dependencie_injections_mock_fail/main.c), fails because **malloc** is not implemented.
+These example: fails because **malloc** is not implemented.
 
 compile with:
 ```bash
-gcc  samples/dependencie_injections_mock_fail/main.c samples/dependencie_injections_mock_fail/dtw.c
+gcc  samples/dependencie_injections_default/main.c samples/dependencie_injections_default/dtw.c -DDTW_1_0_0_MOCK_STDLIB_H
 ```
 it will evaluate after runing to:
 ```bash

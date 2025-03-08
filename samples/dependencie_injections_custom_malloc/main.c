@@ -1,5 +1,4 @@
 
-#define DTW_1_0_0_MOCK_STDLIB_H
 #include "dtw.h"
 
 int main(){

@@ -1,5 +1,4 @@
 # Oui C Specification Guide
-
 These Repo Specify the Oui C Language Especification with best practices and examples.
 
 ## Rules
@@ -19,3 +18,7 @@ The code should be able to run without any configuration, but should be able to 
 The code should prioritize the public API over the internal API,in terms of
 ease of use and documentation.
 
+## Itens
+| Item | Description | 
+| --- | --- |
+| [naming.md](/naming.md) | Naming of variables and functions |

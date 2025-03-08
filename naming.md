@@ -13,6 +13,11 @@ if your function is private(only use internaly), you should add the **private** 
 These its usefull to avoid name colisions and to make the code more readable.
 and it's easy to upgrade the version of the lib, just change the version number in the function name all at once.
 
+### General Rules
+ - avoid abbreviations
+ - use descriptive names
+ - use the same name for the same thing  (ex: if you have a function that list files, and another that list folders, use the same name for both)
+
 ### Functions
 functions must be lower case and use underscore to separate words, and should be named after what they do, not how they do it.
 
@@ -33,4 +38,13 @@ typedef struct dtw_1_0_0_Point{
     int x;
     int y;
 } dtw_1_0_0_Point;
+```
+
+### Variables
+Variables should be named in lower case and use underscore to separate words, and should be named after what they represent.Note that private,lib and version dont apply to variables. Variables should Always be initialized.
+
+example:
+
+```c
+int folder_size = 0;
 ```

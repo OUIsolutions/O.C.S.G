@@ -22,3 +22,4 @@ ease of use and documentation.
 | Item | Description | 
 | --- | --- |
 | [naming.md](/naming.md) | Naming of variables and functions |
+| [initialization.md](/initialization.md) | Initialization of itens |

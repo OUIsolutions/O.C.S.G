@@ -1,5 +1,5 @@
 
-#include "dtw.h"
+#include "dtw/dtw.h"
 
 int main(){
   

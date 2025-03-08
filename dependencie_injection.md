@@ -24,3 +24,16 @@ it will evaluate after runing to:
 ```bash
 Error: malloc function is NULL
 ```
+### Dependencie Injection with Mocks and Custom Functions
+You can also inject custom functions, to test your code, or to run in a different platform. (Note That you will need to implement the custom functions)
+In the example of [dependencie_injections_custom_malloc](/samples/dependencie_injections_custom_malloc/main.c), we inject a custom malloc function.
+
+compile with:
+```bash
+gcc  samples/dependencie_injections_custom_malloc/main.c samples/dependencie_injections_custom_malloc/dtw.c -DDTW_1_0_0_MOCK_STDLIB_H
+```
+it will evaluate after runing to:
+```bash
+Hello
+stack_point: 10
+```

@@ -16,7 +16,7 @@ and it's easy to upgrade the version of the lib, just change the version number 
 ### General Rules
  - avoid abbreviations
  - use descriptive names
- - use the same name for the same thing  (ex: if you have a function that list files, and another that list folders, use the same name for both)
+ - use the same name for the same thing  (ex: if you have a function that list files, and another that list folders, use the same name for both **list_files** and **list_folders**)
 
 ### Functions
 functions must be lower case and use underscore to separate words, and should be named after what they do, not how they do it.

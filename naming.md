@@ -41,12 +41,11 @@ typedef struct dtw_1_0_0_Point{
 ```
 
 ### Local Variables
-Variables should be named in lower case and use underscore to separate words, and should be named after what they represent.Note that private,lib and version dont apply to variables.
-
+Variables should be named in lowercase letters, use underscores to separate words, should be named according to what they represent, and should have the name or acronym of the variable before it. Note that private, lib, and version do not apply to variables.
 example:
 
 ```c
-int folder_size = 0;
+int dtw_folder_size = 0;
 ```
 
 ### Global Variables

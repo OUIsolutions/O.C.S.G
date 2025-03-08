@@ -16,5 +16,6 @@ The code should never colide with other code , with other versions of the same c
 The code should be able to run without any configuration, but should be able to be configured (rule 1).
 
 ### 5. Public API First
-
+The code should prioritize the public API over the internal API,in terms of
+ease of use and documentation.
 

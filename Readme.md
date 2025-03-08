@@ -12,7 +12,7 @@ The code should be able to run in any plataform that has a C compiler,so all **I
 The code should never colide with other code , with other versions of the same code or with language features.
 
 ### 4. Out of the box
-The code should be able to run without any configuration, but should be able to be configured (rule 1).
+The code should be able to run without any configuration, but should be able to be configured (rule:Plataform Independency).
 
 ### 5. Public API First
 The code should prioritize the public API over the internal API,in terms of

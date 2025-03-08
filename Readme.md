@@ -23,3 +23,4 @@ ease of use and documentation.
 | --- | --- |
 | [naming.md](/naming.md) | Naming of variables and functions |
 | [initialization.md](/initialization.md) | Initialization of itens |
+| [dependencie_injection.md](/dependencie_injection.md) | Dependencie Injection |
